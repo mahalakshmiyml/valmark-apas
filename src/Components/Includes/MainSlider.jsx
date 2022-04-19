@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Carousel } from "react-bootstrap";
 import Image1 from "../../images/slider/image-1.png";
-import Image2 from "../../images/slider/imag-2.png";
+import Image2 from "../../images/slider/image-2.png";
 import Image3 from "../../images/slider/image-3.png";
 import ContactModal from "./ContactModal";
 
@@ -89,7 +89,7 @@ const MainSlider = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div className="wraper position-absolute p-3">
+              <div className="wraper position-absolute p-3 mb-5">
                 <Button
                   onClick={handleShow}
                   className="bg-dark border-0 fs-2 text-success fw-bold text-uppercase w-100"

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav, Image } from "react-bootstrap";
-import Logo from "../../images/logo-1.png";
+import logo from "../../images/first-logo.png";
 
 const TopHeader = () => {
   return (
@@ -14,7 +14,7 @@ const TopHeader = () => {
     >
       <Container>
         <Navbar.Brand href="/">
-          <h5>Valmark Apas</h5>
+          <Image src={logo} alt="" className="img-fluid" />
         </Navbar.Brand>
         <Nav.Link
           className="btn-sm btn-danger text-white d-block d-md-none"
