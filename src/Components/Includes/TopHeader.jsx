@@ -17,7 +17,7 @@ const TopHeader = () => {
           <h5>Valmark Apas</h5>
         </Navbar.Brand>
         <Nav.Link
-          className="btn-sm btn-danger text-white d-block d-md-none"
+          className="btn-sm btn-success text-white d-block d-md-none"
           href="tel:08147203771"
         ><i className="fa fa-phone-volume"></i> 81472 03771
         </Nav.Link>
@@ -32,7 +32,7 @@ const TopHeader = () => {
           </Nav>
           <Nav>
             <Nav.Link
-              className="btn-sm btn-danger text-white"
+              className="btn-sm btn-success text-white"
               href="tel:08147203771"
             ><i className="fa fa-phone-volume"></i> + 91 8147203771
             </Nav.Link>
