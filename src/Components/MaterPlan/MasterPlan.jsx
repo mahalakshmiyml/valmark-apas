@@ -3,9 +3,7 @@ import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 import AllImages from "./AllImages";
 import MasterPlanImages from "./MasterPlanImages";
 import ThreeBHKImages from "./ThreeBHKImages";
-import OneBHKImages from "./OneBHKImages";
-import TwoBHKImages from "./TwoBHKImages";
-import FloorPlanImages from "./FloorPlanImages";
+import FourBHKImages from "./FourBHKImages";
 
 const MasterPlan = () => {
   const [key, setKey] = useState("all");
@@ -29,18 +27,12 @@ const MasterPlan = () => {
               </Tab>
               <Tab eventKey="matster-plan" title="Master Plan" className="text-dark">
                 <MasterPlanImages />
-              </Tab>
-              <Tab eventKey="floor-plan" title="Floor Plans">
-                {<FloorPlanImages />}
-              </Tab>
-              <Tab eventKey="one-bhk" title="1 BHK">
-                {<OneBHKImages />}
-              </Tab>
-              <Tab eventKey="two-bhk" title="2 BHK">
-                {<TwoBHKImages />}
-              </Tab>
+              </Tab>           
               <Tab eventKey="three-bhk" title="3 BHK">
                 {<ThreeBHKImages />}
+              </Tab>
+              <Tab eventKey="four-bhk" title="4 BHK">
+                {<FourBHKImages />}
               </Tab>
              
             </Tabs>
