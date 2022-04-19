@@ -8,10 +8,10 @@ import Gallery from '../Components/Gallery';
 import Location from '../Components/Location';
 import Pricing from '../Components/Pricing';
 import MasterPlan from '../Components/MaterPlan/MasterPlan';
-// import VirtualTour from './Components/VirtualTour';
 // import Contact from './Contact';
 import ProjectHighlights from '../Components/ProjectHighlights';
 import GetInTouch from '../Components/GetInTouch';
+import VirtualTour from './VirtualTour';
 
 const Home = () => {
   return (
@@ -23,7 +23,7 @@ const Home = () => {
       <MasterPlan />
       <Gallery />
       <Amenities />
-      {/* <VirtualTour /> */}
+      <VirtualTour />
       {/* <SideForm /> */}
       <Location /> 
       <GetInTouch />      
