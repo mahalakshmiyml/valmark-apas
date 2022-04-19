@@ -74,7 +74,7 @@ const MainSlider = () => {
                 <div className="text-center">
                   <Button
                     onClick={handleShow}
-                    className="my-2 bg-danger w-100 border-0 fw-bold text-uppercase"
+                    className="my-2 bg-success w-100 border-0 fw-bold text-uppercase"
                   >
                     Download Brochure
                   </Button>
@@ -92,12 +92,12 @@ const MainSlider = () => {
               <div className="wraper position-absolute p-3">
                 <Button
                   onClick={handleShow}
-                  className="bg-dark border-0 fs-2 text-danger fw-bold text-uppercase w-100"
+                  className="bg-dark border-0 fs-2 text-success fw-bold text-uppercase w-100"
                 >
                   Booking Open
                 </Button>
                 <h1 className="text-center text-white mb-0 py-2 text-uppercase">
-                  Mahindra Eden
+                  Valmark Apas
                 </h1>
                 <div className="text-white py-2">
                   <ul className="">
@@ -109,7 +109,7 @@ const MainSlider = () => {
                   <div className="text-center">
                     <Button
                       onClick={handleShow}
-                      className="my-2 bg-danger border-0 w-100 py-3 text-uppercase"
+                      className="my-2 bg-success border-0 w-100 py-3 text-uppercase"
                     >
                       Download Brochure
                     </Button>
