@@ -1,16 +1,16 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import Image1 from "../../images/floor-plans/master-plan.png";
-import Image2 from "../../images/floor-plans/1bhk-medows.png";
-import Image3 from "../../images/floor-plans/2bhk-medows.png";
-import Image4 from "../../images/floor-plans/3bhk-aqua.png";
+import Image2 from "../../images/floor-plans/3bhk-3170.png";
+import Image3 from "../../images/floor-plans/3bhk-3170-1.png";
+import Image4 from "../../images/floor-plans/4bhk-3560.png";
 
 const AllImages = () => {
   const images = [
-    { id: 1, imgName: Image1, alt: "", tag: "" },
-    { id: 2, imgName: Image2, alt: "", tag: "" },
-    { id: 3, imgName: Image3, alt: "", tag: "" },
-    { id: 4, imgName: Image4, alt: "", tag: "" },
+    { id: 1, imgName: Image1, alt: "", tag: "Master Plan" },
+    { id: 2, imgName: Image2, alt: "", tag: "3 BHK - 3170 Sqft" },
+    { id: 3, imgName: Image3, alt: "", tag: "3 BHK - 3170 Sqft" },
+    { id: 4, imgName: Image4, alt: "", tag: "4 BHK - 3560 Sqft" },
   ];
 
   return (

@@ -1,5 +1,7 @@
 import React from "react";
 import { Col, Container, Ratio, Row } from "react-bootstrap";
+import Video1 from "../images/video/video-1.mp4"
+import Video2 from "../images/video/video-2.mp4"
 
 const VirtualTour = () => {
   return (
@@ -7,9 +9,14 @@ const VirtualTour = () => {
       <Container>
           <h2 className="py-3 text-primary text-center">Virtual Tour</h2>
         <Row className="justify-content-center">
-          <Col md={10}>
+          <Col md={6}>
             <Ratio aspectRatio="16x9">
-              <embed type="image/svg+xml" src="https://i3dvirtualtour.com/tour/assetz/marq2_4bhk#" />
+              <embed type="image/svg+xml" src={Video1 }/>
+            </Ratio>
+          </Col>
+          <Col md={6}>
+            <Ratio aspectRatio="16x9">
+              <embed type="image/svg+xml" src={Video2} />
             </Ratio>
           </Col>
         </Row>

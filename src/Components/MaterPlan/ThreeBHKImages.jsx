@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
-import Image1 from "../../images/floor-plans/3bhk-aqua.png";
-import Image2 from "../../images/floor-plans/3bhk-green.png";
+import Image1 from "../../images/floor-plans/3bhk-3170.png";
+import Image2 from "../../images/floor-plans/3bhk-3170-1.png";
 const ThreeBHKImages = () => {
   const ThreeBHKImages = [
-    { id: 1, imgName: Image1, alt: "", tag: "" },
-    { id: 2, imgName: Image2, alt: "", tag: "" },
+    { id: 1, imgName: Image1, alt: "", tag: "3 BHK - 3170 Sqft" },
+    { id: 2, imgName: Image2, alt: "", tag: "3 BHK - 3170 Sqft" },
   ];
 
   return (

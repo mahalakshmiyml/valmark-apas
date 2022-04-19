@@ -4,7 +4,7 @@ import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 import Image1 from "../../images/floor-plans/master-plan.png";
 
 const MasterPlanImages = () => {
-  const images = [{ id: 1, imgName: Image1, alt: "", tag: "" }];
+  const images = [{ id: 1, imgName: Image1, alt: "", tag: "Master Plan" }];
   return (
     <div>
       <Container>
