@@ -22,7 +22,7 @@ const GetInTouch = () => {
 
     axios
       .get(
-        "https://mahindra-eden.prelaunchprop.in/Email/email.php?sendto=" +
+        "https://Valmark-apas.prelaunchprop.in/Email/email.php?sendto=" +
           values.email +
           "&name=" +
           values.name +

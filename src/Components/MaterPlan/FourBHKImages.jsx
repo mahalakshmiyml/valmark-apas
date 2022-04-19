@@ -13,7 +13,7 @@ const FourBHKImages = () => {
       <Container>
         <SimpleReactLightbox>
           <SRLWrapper>
-            <Row className="g-3">
+            <Row className="g-3 justify-content-center">
               {FourBHKImages.map((item) => (
                 <Col md={6} key={item.id}>
                   <div className="m-1 text-center border rounded">
