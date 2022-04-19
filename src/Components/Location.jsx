@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import Image1 from "../images/floor-plans/location.png";
+import Image1 from "../images/location.png";
 // import VirtualTour from "./VirtualTour";
 
 const Location = () => {
