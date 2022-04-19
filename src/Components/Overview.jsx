@@ -67,7 +67,7 @@ const Overview = () => {
         <Row>
           <Col md={8}>
             <h2 className="text-center text-primary py-3">
-              About Mahindra - Eden
+              About Valmark Apas
             </h2>
             <div className="p-3 rounded">
               <p>Uber luxurious high-rise residential apartments Off Bannerghatta road,Opp to Hulimavu lake.
