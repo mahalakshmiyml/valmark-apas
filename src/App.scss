@@ -1,0 +1,177 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+  "primary": #09659E,
+  "secondary": #6c757d,
+  "dark": #343a40,
+  "success": #28a745,
+  "info": #17a2b8,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+  "color1": #6C9D5F,
+  "color2": #67B5DC,
+  "color3": #9B2828,
+  "color4":#1CB1C9,
+  "color5": #9BCA3D,
+  "color6":#A6A9AB,
+);
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary-color: #09659E;
+$secondary-color: #4BB843;
+$white-color: white;
+$black-color: #000;
+$tertiary-color: #9D9E9E;
+$dark-color: #001524;
+
+p {
+  text-align: justify !important;
+}
+
+#SRLLightbox {
+  .SRLDownloadButton {
+    display: none !important;
+  }
+}
+
+
+#navbar {
+  .nav-link {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    color: $primary-color;
+    text-transform: uppercase;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+
+#side-contact-form {
+  .stickyForm {
+    position: fixed;
+    top: 25%;
+    width: 310px;
+    right: -310px;
+    text-align: center;
+    padding: 17px;
+    background: #0c0c0ce0;
+    border-radius: 0;
+    transition: 0.35s ease-in-out;
+    z-index: 999;
+    &.active {
+      right: 0;
+    }
+    .btn-hello {
+      background: $primary-color;
+      padding: 10px 32px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: -100px;
+      color: #fff;
+      height: 40px;
+      border-radius: 0;
+      font-size: 15px;
+      cursor: pointer;
+      transform: rotate(-90deg);
+      border: 0;
+      perspective: 100px;
+      outline: 0 !important;
+      &:hover {
+        background-color: white !important;
+        color: $primary-color;
+        border: 1px solid $primary-color;
+      }
+      &::before {
+        background: white !important;
+      }
+    }
+    input[type="text"],
+    input[type="email"],input[type="tel"] {
+      width: 100% !important;
+      border: 0;
+      height: 35px;
+      background: 0 0;
+      border-bottom: 1px solid #ffffff;
+      margin-bottom: 13px;
+      color: #ffffff;
+      border-radius: 0;
+    }
+    &.top_size {
+      top: 0;
+    }
+    [type="submit"] {
+      background: $primary-color !important;
+      border: none;
+      height: 40px !important;
+      padding: 0 30px !important;
+      color: white;
+    }
+  }
+}
+
+#pricing {
+  .nav-link {
+    cursor: pointer;
+    margin: 5px 5px;
+    color: $primary-color !important;
+    &.active {
+      background-color: $primary-color !important;
+      color: $white-color !important;
+    }
+  }
+}
+
+
+#master-plan {
+  .nav-link {
+    color: $black-color !important;
+  }
+}
+
+#desktop-fix {
+  z-index: 1;
+  .custom {
+    z-index: 4;
+    right: 1%;
+    bottom: 0%;
+  }
+}
+#mobile-fix {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+#cre{
+  .btn-close {
+    color: $white-color !important;
+  }
+}
+
+#desktop-content {
+  .wraper {
+    z-index: 3;
+    bottom: 20%;
+    left: 5%;
+    background-color: #060606b5;
+    padding: 5px;
+  }
+}
+
+#get-in-touch{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/gallery/image-1.png") ;  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
